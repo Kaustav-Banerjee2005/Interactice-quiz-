@@ -1,0 +1,6 @@
+{
+  "name": "Interactive AI Quiz Game – Units I & II",
+  "description": "An interactive assessment quiz game for Artificial Intelligence Units I & II, featuring 50+ diverse questions, 25-mark randomized exam mode, PEAS & search problem-solving, and AI tutoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
