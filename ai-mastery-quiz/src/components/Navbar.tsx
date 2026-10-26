@@ -27,9 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="text-base font-bold tracking-tight text-slate-900 group-hover:text-indigo-600 transition-colors">
               AI Quiz Game
             </span>
-            <span className="hidden sm:inline-block text-xs font-normal text-slate-500 ml-2">
-              Units I & II · 25 Marks
-            </span>
+            
           </div>
         </button>
 
