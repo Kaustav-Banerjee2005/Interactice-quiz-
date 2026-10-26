@@ -1,0 +1,12 @@
+# The app lives in the ai-mastery-quiz folder and is a Vite + React project.
+# Vite uses index.html as the entry, which loads src/main.tsx -> src/App.tsx.
+[build]
+  base = "ai-mastery-quiz"
+  command = "npm install --include=dev && npm run build"
+  publish = "dist"
+
+# Single-page app: send unknown routes to the built index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
